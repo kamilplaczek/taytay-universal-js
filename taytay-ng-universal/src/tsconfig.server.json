@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "angularCompilerOptions": {
+    "entryModule": "./app/server-app.module#ServerAppModule"
+  },
+  "typeRoots": [
+    "./node_modules/@types"
+  ],
+  "types": [
+    "node"
+  ],
+  "include": [
+    "server.ts"
+  ]
+}

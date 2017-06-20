@@ -1,0 +1,7 @@
+<ul *ngIf="pics | async; let pics; else loading">
+  <li *ngFor="let pic of pics">
+    <img [src]="pic.url" />
+  </li>
+</ul>
+
+<ng-template #loading><div style="text-align: center"><img src="/assets/animal.gif"/></div></ng-template>
