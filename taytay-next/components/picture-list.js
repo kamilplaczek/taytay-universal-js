@@ -15,7 +15,7 @@ const PictureList = (props) => {
                           margin: 0;
                           padding: 0;
                         }
-            `}
+                    `}
                 </style>
             </div>
         )
